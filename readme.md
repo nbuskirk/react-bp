@@ -2,6 +2,7 @@
 <pre>
 1. git clone https://github.com/nbuskirk/react-bp.git /var/www/newProject
 2. cd /var/www/newProject && npm install && npm run dev
+3. Browse http://localhost:8090
 --
 npm commands:
 --
