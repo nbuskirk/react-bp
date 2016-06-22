@@ -18,6 +18,7 @@ module : {
         include : APP_DIR,
         loader : 'babel'
       },
+      { test: /\.css$/, loader: "style!css" },
       {
         test: /\.jade$/,
         include : 'index.jade',
