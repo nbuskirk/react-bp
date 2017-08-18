@@ -1,7 +1,8 @@
 import React from 'react'
 import {render} from 'react-dom'
-import MyComponent from './component1.jsx'
-import data from 'json!../../data/data.json'
+import styles from './styles.less'
+import DlpTool from './component1.jsx'
+
 
 export class App1 extends React.Component {
   constructor(props){
@@ -9,11 +10,10 @@ export class App1 extends React.Component {
   }
   render () {
     return (
-        <MyComponent data={data.glossary}/>
+        <DlpTool />
     )
   }
 }
 
-/* Render the application to the page node */
 var appNode = document.getElementById('app-root')
 render(<div><App1 name="App1" /></div>, appNode)
